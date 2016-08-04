@@ -88,7 +88,8 @@
 .container .info span .fa {
   color: #EF3B3A;
 }
-body {
+
+/*body {
   background: #76b852; /* fallback for old browsers */
   background: -webkit-linear-gradient(right, #76b852, #8DC26F);
   background: -moz-linear-gradient(right, #76b852, #8DC26F);
@@ -97,4 +98,15 @@ body {
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;      
-}
+} */
+
+body {
+  background: #ECECEC; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #ECECEC, #ECECEC);
+  background: -moz-linear-gradient(right, #ECECEC, #ECECEC);
+  background: -o-linear-gradient(right, #ECECEC, #ECECEC);
+  background: linear-gradient(to left, #ECECEC, #ECECEC);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+} 
