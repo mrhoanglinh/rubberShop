@@ -25,7 +25,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+#gem 'bcrypt', '~> 3.1.11'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -48,3 +48,10 @@ gem 'activeadmin', github: 'activeadmin'
 gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 
 gem 'devise'
+
+#gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
+#gem 'bcrypt-ruby', '3.1.5', :require => 'bcrypt'
+#gem 'bcrypt-ruby', '3.0.0', :require => 'bcrypt'
+#gem 'bcrypt', '~> 3.1', '>= 3.1.11'
+#gem 'bcrypt', '~> 3.1', '>= 3.1.11'
+gem 'rdoc', '~> 4.2', '>= 4.2.2'
